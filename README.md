@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Appointment Booking Application
+Description
 
-## Getting Started
+This project is a web-based application for managing user bookings and appointments. It allows users to book time slots, view their appointments, and manage booking statuses.
 
-First, run the development server:
+Features
+User Authentication: Secure login and registration with role-based access control.
+Appointment Booking: Users can view available time slots and book appointments.
+Booking Management: Users can cancel their appointments.
+Admin Page: Admins can manage appointments and bookings, including cancellations.
 
-```bash
+Tools & Technologies
+
+Frontend:
+Next.js (React framework)
+Tailwind CSS (Utility-first CSS framework)
+Shadcn UI (UI components)
+React Hook Form (Form handling library)
+Zod (TypeScript-first schema validation)
+
+Backend:
+Node.js (JavaScript runtime)
+Prisma (ORM for database management)
+Express.js or custom API routes (optional based on setup)
+PostgreSQL (Neon database)
+
+Authentication:
+NextAuth.js (Authentication library for Next.js)
+
+Others:
+Sonner (Toast notifications)
+Lucide-React (Icon library)
+Date-fns (Date manipulation)
+
+How to Set Up and Run the Project Locally
+Prerequisites
+Ensure you have the following installed on your machine:
+
+Node.js (version 16 or higher)
+
+Step 1: Clone the Repository
+First, clone the repository to your local machine:
+
+git clone https://github.com/your-username/project-repository.git
+
+Step 2: Install Dependencies
+Navigate to the project directory and install the required dependencies:
+
+cd project-repository
+npm install
+
+Step 3: Set Up Environment Variables
+Create a .env file in the root directory and add the following environment variables. These may include API keys, database URLs, or any other sensitive data.
+
+DATABASE_URL="your-database-url"
+AUTH_SECRET="your-secret-key"
+
+Step 4: Run the Development Server
+Once the dependencies are installed and the .env file is configured, you can run the project locally:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This will start the server at http://localhost:3000.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Step 5: Access the Application
+Once the server is running, open your browser and navigate to:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+http://localhost:3000
