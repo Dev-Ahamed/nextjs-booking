@@ -41,7 +41,7 @@ Node.js (version 16 or higher)
 Step 1: Clone the Repository
 First, clone the repository to your local machine:
 
-git clone https://github.com/your-username/project-repository.git
+git clone [https://github.com/your-username/project-repository.git](https://github.com/Dev-Ahamed/nextjs-booking.git)
 
 Step 2: Install Dependencies
 Navigate to the project directory and install the required dependencies:
