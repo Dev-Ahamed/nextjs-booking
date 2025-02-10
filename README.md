@@ -65,3 +65,7 @@ Step 5: Access the Application
 Once the server is running, open your browser and navigate to:
 
 http://localhost:3000
+
+Admin Login Credentials
+Email: ahamed@gmail.com
+Password: 123456
