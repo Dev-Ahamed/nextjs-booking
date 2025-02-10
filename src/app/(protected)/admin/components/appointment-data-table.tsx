@@ -78,7 +78,7 @@ export const AppointmentDataTable = ({
         console.log("userFetchError", error);
       }
     });
-  }, [pagination, businessId, globalFilter]);
+  }, [pagination, globalFilter]);
 
   useEffect(() => {
     if (isFirstRender.current) {
